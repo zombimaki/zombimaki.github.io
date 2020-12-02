@@ -9,12 +9,12 @@ body {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 18px;
     line-height: 150%;
-    color: #333;
-    background: #efeee7;
+    color: whitesmoke;
+    background: black;
   }
   
   header {
-    background: #333;
+    background:white;
   }
   
   h1 {
@@ -22,17 +22,18 @@ body {
     margin: 0;
     margin-bottom: 20px;
     font-size: 28px;
-    color: wheat;
-    background-color: #d21034;
+    color: white;
+    background-color: #a00a26;
     text-align: center;
   }
   
   h2 {
     font-size: 24px;
+    color: rgb(201, 18, 18)
   }
   
   a {
-    color: #d21034;
+    color: lightgreen
   }
   
   /* Selecting elements by class */
