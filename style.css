@@ -9,31 +9,31 @@ body {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 18px;
     line-height: 150%;
-    color: whitesmoke;
-    background: black;
+    color: black;
+    background: skyblue;
   }
   
   header {
-    background:white;
+    background:rgb(53, 49, 49);
   }
   
   h1 {
-    padding: 20px 0;
+    padding: 20px 20px;
     margin: 0;
     margin-bottom: 20px;
     font-size: 28px;
     color: white;
     background-color: #a00a26;
-    text-align: center;
+    text-align: left;
   }
   
   h2 {
     font-size: 24px;
-    color: rgb(201, 18, 18)
+    color: black
   }
   
   a {
-    color: lightgreen
+    color: white
   }
   
   /* Selecting elements by class */
@@ -78,3 +78,8 @@ body {
     margin-right: 20px;
   }
   
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: lightgrey;
+    color: black
+    }
