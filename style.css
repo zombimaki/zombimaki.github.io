@@ -10,7 +10,7 @@ body {
     font-size: 18px;
     line-height: 150%;
     color: black;
-    background: skyblue;
+    background: #ffffff;
   }
   
   header {
@@ -33,7 +33,7 @@ body {
   }
   
   a {
-    color: white
+    color: black
   }
   
   /* Selecting elements by class */
