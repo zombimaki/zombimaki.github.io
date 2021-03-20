@@ -1,85 +1,112 @@
-/*
- First External CSS Stylesheet
- */
 
-/* Styling for HTML elements */
 body {
-    padding: 0;
+  font-family: 'Arial', Times, serif; 
+  font-size: 15px;
+  background-color:#F5F5F5;
+}
+
+h1 {
+    color: black;;
+    font-size: 36px;
     margin: 0;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 18px;
-    line-height: 150%;
-    color: black;
-    background: #ffffff;
+    vertical-align: baseline;
+    padding-top:5px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    border: 0;
+    margin-left: 10px;
   }
-  
-  header {
-    background:rgb(53, 49, 49);
-  }
-  
-  h1 {
-    padding: 20px 20px;
-    margin: 0;
-    margin-bottom: 20px;
-    font-size: 28px;
-    color: white;
-    background-color: #a00a26;
-    text-align: left;
-  }
-  
-  h2 {
-    font-size: 24px;
-    color: black
-  }
-  
-  a {
-    color: black
-  }
-  
-  /* Selecting elements by class */
-  .container {
-    width: 1024px;
-    margin: 0 auto;
-  }
-  
-  /* Selecting elements by ID */
-  #main-bio,
-  #contact-info,
-  #bio-image {
-    float: left;
-  }
-  
-  #figure {
+
+  .well {
     position: relative;
+    left: 54px;
   }
   
-  #bio-name {
-    position: absolute;
-    top: 150px;
-    left: 30px;
-    color: white;
-  }
-  
-  #main-bio {
-    width: 70%;
-  }
+ 
+    /* Navbar */
 
-  #main-bottom {
-    width: 70%;
-  }
+.navbar {
+  width: 100%;
+  padding: 0;
   
-  #contact-info {
-    width: 30%;
-  }
-  
-  #bio-image {
-    width: 200px;
-    height: 200px;
-    margin-right: 20px;
-  }
-  
+}
 
-.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
-    background-color: lightgrey;
-    color: black
-    }
+.navbar-custom { 
+  background-color: #f39800; 
+  color: #F5F5F5;
+} 
+ 
+
+.navbar-custom .navbar-brand{ 
+  background-color: #f39800; 
+  color: #F5F5F5;
+} 
+ 
+.navbar-brand {
+  font-size: 32px;
+  font-weight: bolder;
+  padding: 5px;
+  margin-left: 3%;   
+}
+  
+.navbar-collapse {
+  position: absolute;
+  right: 5%;
+  font-size: small;
+}
+  
+.nav-item {
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #F5F5F5;
+}
+
+
+.text-center {
+  background-color: #F5F5F5;
+  font-size: larger;
+}
+
+p {
+  text-align: left;
+  text-indent: 30px;
+  font-size: large;
+}
+
+.tab { 
+  margin-left: 40px; 
+  line-height: 125%;  
+  font-size: large;
+}
+
+/* plots */
+
+#pairplot {
+  display: flex;
+  justify-content: center;
+}
+
+#lineplot {
+  display: flex;
+  justify-content: center;
+}
+
+#chart_one {
+  display: flex;
+  justify-content: center;
+}
+
+#bubble_ed {
+  display: flex;
+  justify-content: center;
+}
+
+#map_ed {
+  display: flex;
+  justify-content: center;
+}
+
+
+
